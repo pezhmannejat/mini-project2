@@ -1,8 +1,11 @@
 body{
-    background-color: lightgrey;
+    background:linear-gradient(45deg,rgb(108, 182, 188),rgb(27, 88, 90),rgb(3, 94, 82));
+    background-repeat: no-repeat;
+
+
 }
 .container{
-    background-color: white;
+    background-color: rgb(208, 241, 238);
     width:500px;
     height: 400px;
     margin: 100px auto;
@@ -14,8 +17,7 @@ body{
     width: 200px;
     display: block;
     margin: auto;
-    border-radius: 50%;
-    border: 2px dotted gray;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 13%, 100% 88%, 80% 100%, 20% 100%, 0 88%, 0 14%);
 }
 .title{
     font-size: 25px;
@@ -33,7 +35,7 @@ body{
 }
 .icons{
     height: 50px;
-    background-color: lightgray;
+    background-color:rgb(108, 182, 188);
     text-align: center;
 }
 .fa-brands,.fa-solid{
@@ -43,5 +45,5 @@ body{
 }
 a :hover{
     background-color:black;
-    color:orange;
+    color:rgb(9, 170, 154);
 }
